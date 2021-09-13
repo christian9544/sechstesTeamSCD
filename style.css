@@ -1,0 +1,253 @@
+body, html, .elternDiv {
+  height: 100%;
+  margin: 0;
+  background-color: #f5f2e6;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #8f877b;
+  line-height: 150%;
+  scroll-behavior: smooth;
+}
+
+
+.start, .ueberUns, #personen, .unserHof, .ackerbau, .schweinemast, .erneuerbareEnergien, .dienstleistungen, .produkte, .news, .kontakt {
+  min-height: 100%;
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  position: relative;
+}
+
+.textContainer {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+#link {
+  color: #968e81;
+}
+
+#video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0.9;
+}
+
+@media screen and (max-width: 1200px) {
+  #video {
+    display: none;
+  }
+  .start {
+    background-image: url("images/Startbild.jpg");
+  }
+}
+
+.caption {
+  position: absolute;
+  color: #f5f2e6;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 85px;
+  font-weight: bold;
+  line-height: 100%;
+  top: 5%;
+  left: 5%;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+#startText {
+  padding: 60px;
+}
+
+.familienFoto {
+  margin-bottom: 40px;
+}
+
+#familienfoto {
+  width: 500px;
+  height: auto;
+}
+
+.ueberUns {
+  background-image: url("images/P8.jpg");
+}
+
+#platzhalter {
+  width: 100%;
+   object-fit: cover;
+   height: 250px;
+}
+
+#personen {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#col {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#col img {
+  margin: 15px;
+}
+
+#portrait {
+  width: 200px;
+  height: auto;
+}
+
+.unserHof {
+  /* The image used */
+  background-image: url("images/Hof.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#schaubild {
+  width: 600px;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.ackerbau {
+  /* The image used */
+  background-image: url("images/Zuckerrübe.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nahaufnahme {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.schweinemast {
+  /* The image used */
+  background-image: url("images/Schweine.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.erneuerbareEnergien {
+  /* The image used */
+  background-image: url("images/Windrad2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {box-sizing:border-box}
+
+.dienstleistungen {
+  background-image: url("images/Traktor.jpg");
+}
+
+.produkte {
+  background-image: url("images/TriticaleFeldQuer.jpg");
+}
+
+.news {
+  background-image: url("images/WeizenNah.jpg");
+}
+
+.kontakt {
+    background-image: url("images/HofHinten.jpg");
+}
+
+#kontaktBereich {
+  padding: 60px;
+}
+
+#kontaktBild {
+  width: 200px;
+  height: auto;
+}
+
+.responsive_map {
+height: 0;
+overflow: hidden;
+padding-bottom: 100%;
+position: relative;
+}
+
+.responsive_map iframe {
+height: 400px;
+width: 400px;
+left: 0;
+position: absolute;
+top: 0;
+}
+
+.footer {
+  height: 30px;
+}
+
+#impressum {
+  color: #968e81;
+  text-decoration: none;
+  margin: 10px;
+}
