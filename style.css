@@ -263,13 +263,6 @@ top: 0;
   cursor: pointer;
 }
 
-#logoLinks {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 80px;
-  z-index: 2;
-}
 
 #menuButton:hover{
   /*
