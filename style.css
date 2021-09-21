@@ -341,9 +341,7 @@ top: 0;
 @media screen and (max-width: 1000px){
   .textContainer {
     max-width: 750px;
-    margin: 0 auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin: 70px 0;
     padding-left: 4px;
     padding-right: 4px;
     font-size: 20px;
